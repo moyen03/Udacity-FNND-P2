@@ -1,4 +1,4 @@
-http://moyen03.github.io/js-resume
+http://moyen03.github.io/Udacity-FNND-P2/
 
 ## How do I complete this project?
 
