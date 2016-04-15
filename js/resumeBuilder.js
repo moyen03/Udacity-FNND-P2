@@ -170,9 +170,6 @@ var additional = {
 
 var reference = {
 	"references": [
-		//{
-		//"ref1": ["Dr. Ing. Abbas Malekpour", "Distributed High Performance Computing", "Institute of Computer Science, University of Rostock, Germany.", "Tele: +49-381-498-7544", "Email: abbas.malekpour@gmail.com"]
-		//},
 		{
 		"ref1": ["Dr. Ing. Abbas Malekpour", "Distributed High Performance Computing", "Institute of Computer Science, University of Rostock, Germany.", "Tele: +49-381-498-7544", "Email: abbas.malekpour@gmail.com", "-------------------------------------------------------------------------", "Prof. Dr. Md. Mortuza Ali", "Dean", "Faculty of Engineering & Technology, Eastern University, Bangladesh.", "Phone: +88 02 9677523 Ext. 301", "Mobile: +88 01717-137863", "Email: mmali@easternuni.edu.bd"]
 		}
@@ -451,32 +448,13 @@ function locationizer(work_obj){
 
 locationizer(work);
 
-//console.log(locationizer(work));
-
-//$("#main").append(internationalizeButton);
-
-/*
-inName("sebastian Thurn");
-
-function inName(fullName){
-	var newArrayName = fullName.split(" ");
-	//console.log(newArrayName);
-	var fName = newArrayName[0];
-	//console.log(fName);
-	var lName = newArrayName[1].toUpperCase();
-	//console.log(lName);
-    return fName +" "+ lName;
-    //console.log(intName);
-} */
 
 inName("sebastian Thurn");
 
 function inName(name){
 	name = name.split(" ");
-	//console.log(name);
 	name[1] = name[1].toUpperCase();
 	name[0] = name[0].slice(0, 1).toUpperCase() + name[0].slice(1).toLowerCase();
-	//console.log(name[0]);
 	return name[0]+" "+name[1];
 }
 
